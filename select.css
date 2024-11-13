@@ -1,0 +1,38 @@
+.state{
+    margin-left: 45%;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgb(220, 220, 220);
+    border-width: 2px;
+    background-color: rgba(124, 124, 124, 0.084);
+}
+option{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+button{
+    margin-left: 45%;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0.205);
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+button:hover{
+    border-color: black;
+}
+img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+img:hover{
+    transition: 2s ease;
+    transform: scale(1.3);
+}
